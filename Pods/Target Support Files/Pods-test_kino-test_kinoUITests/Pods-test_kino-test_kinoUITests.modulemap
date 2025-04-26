@@ -1,0 +1,6 @@
+framework module Pods_test_kino_test_kinoUITests {
+  umbrella header "Pods-test_kino-test_kinoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

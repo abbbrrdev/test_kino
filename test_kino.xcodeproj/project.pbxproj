@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		925CC8A1E74A6C152511971D /* Pods_test_kinoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD46E26BFE4D5986B185AACF /* Pods_test_kinoTests.framework */; };
+		B0E0782A614C3C189E2B547C /* Pods_test_kino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBCF80A7B32EEC1B79CD5FF /* Pods_test_kino.framework */; };
+		DC8024673E82193DA267C1DC /* Pods_test_kino_test_kinoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A801F409A81AD851A9494091 /* Pods_test_kino_test_kinoUITests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		64F1A82A2DBC2A40000AB7B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,16 +30,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02A660FA505AB03EACC46F78 /* Pods-test_kino-test_kinoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_kino-test_kinoUITests.release.xcconfig"; path = "Target Support Files/Pods-test_kino-test_kinoUITests/Pods-test_kino-test_kinoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1EF2B7BDE5EC538DCB0EC50C /* Pods-test_kinoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_kinoTests.debug.xcconfig"; path = "Target Support Files/Pods-test_kinoTests/Pods-test_kinoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FCCB01C59DD07F2E81CE05D /* Pods-test_kinoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_kinoTests.release.xcconfig"; path = "Target Support Files/Pods-test_kinoTests/Pods-test_kinoTests.release.xcconfig"; sourceTree = "<group>"; };
+		43681CFECFF7F0C3C64E27F2 /* Pods-test_kino.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_kino.release.xcconfig"; path = "Target Support Files/Pods-test_kino/Pods-test_kino.release.xcconfig"; sourceTree = "<group>"; };
+		54F7A56706736545089B3A20 /* Pods-test_kino.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_kino.debug.xcconfig"; path = "Target Support Files/Pods-test_kino/Pods-test_kino.debug.xcconfig"; sourceTree = "<group>"; };
 		64F1A8132DBC2A3E000AB7B6 /* test_kino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_kino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F1A8292DBC2A40000AB7B6 /* test_kinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_kinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F1A8332DBC2A40000AB7B6 /* test_kinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_kinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBCF80A7B32EEC1B79CD5FF /* Pods_test_kino.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_kino.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A801F409A81AD851A9494091 /* Pods_test_kino_test_kinoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_kino_test_kinoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD46E26BFE4D5986B185AACF /* Pods_test_kinoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_kinoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F307D22F2E90163BC9623F2E /* Pods-test_kino-test_kinoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_kino-test_kinoUITests.debug.xcconfig"; path = "Target Support Files/Pods-test_kino-test_kinoUITests/Pods-test_kino-test_kinoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		64F1A83B2DBC2A40000AB7B6 /* Exceptions for "test_kino" folder in "test_kino" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
 			target = 64F1A8122DBC2A3E000AB7B6 /* test_kino */;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E0782A614C3C189E2B547C /* Pods_test_kino.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925CC8A1E74A6C152511971D /* Pods_test_kinoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8024673E82193DA267C1DC /* Pods_test_kino_test_kinoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E8BCFD85ADE9070912F5151 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BBCF80A7B32EEC1B79CD5FF /* Pods_test_kino.framework */,
+				A801F409A81AD851A9494091 /* Pods_test_kino_test_kinoUITests.framework */,
+				AD46E26BFE4D5986B185AACF /* Pods_test_kinoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		64F1A80A2DBC2A3E000AB7B6 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +120,8 @@
 				64F1A82C2DBC2A40000AB7B6 /* test_kinoTests */,
 				64F1A8362DBC2A40000AB7B6 /* test_kinoUITests */,
 				64F1A8142DBC2A3E000AB7B6 /* Products */,
+				907CE4E76C362C2C9507F0E2 /* Pods */,
+				5E8BCFD85ADE9070912F5151 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +135,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		907CE4E76C362C2C9507F0E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54F7A56706736545089B3A20 /* Pods-test_kino.debug.xcconfig */,
+				43681CFECFF7F0C3C64E27F2 /* Pods-test_kino.release.xcconfig */,
+				F307D22F2E90163BC9623F2E /* Pods-test_kino-test_kinoUITests.debug.xcconfig */,
+				02A660FA505AB03EACC46F78 /* Pods-test_kino-test_kinoUITests.release.xcconfig */,
+				1EF2B7BDE5EC538DCB0EC50C /* Pods-test_kinoTests.debug.xcconfig */,
+				3FCCB01C59DD07F2E81CE05D /* Pods-test_kinoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64F1A83C2DBC2A40000AB7B6 /* Build configuration list for PBXNativeTarget "test_kino" */;
 			buildPhases = (
+				8961C3204A4C4A14242A3055 /* [CP] Check Pods Manifest.lock */,
 				64F1A80F2DBC2A3E000AB7B6 /* Sources */,
 				64F1A8102DBC2A3E000AB7B6 /* Frameworks */,
 				64F1A8112DBC2A3E000AB7B6 /* Resources */,
+				1AF58015C932D9F864CA8322 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +169,6 @@
 				64F1A8152DBC2A3E000AB7B6 /* test_kino */,
 			);
 			name = test_kino;
-			packageProductDependencies = (
-			);
 			productName = test_kino;
 			productReference = 64F1A8132DBC2A3E000AB7B6 /* test_kino.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64F1A8412DBC2A40000AB7B6 /* Build configuration list for PBXNativeTarget "test_kinoTests" */;
 			buildPhases = (
+				2C44B63AA20A6163E256E85B /* [CP] Check Pods Manifest.lock */,
 				64F1A8252DBC2A40000AB7B6 /* Sources */,
 				64F1A8262DBC2A40000AB7B6 /* Frameworks */,
 				64F1A8272DBC2A40000AB7B6 /* Resources */,
@@ -147,8 +191,6 @@
 				64F1A82C2DBC2A40000AB7B6 /* test_kinoTests */,
 			);
 			name = test_kinoTests;
-			packageProductDependencies = (
-			);
 			productName = test_kinoTests;
 			productReference = 64F1A8292DBC2A40000AB7B6 /* test_kinoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64F1A8442DBC2A40000AB7B6 /* Build configuration list for PBXNativeTarget "test_kinoUITests" */;
 			buildPhases = (
+				534631791D9E443093A245D0 /* [CP] Check Pods Manifest.lock */,
 				64F1A82F2DBC2A40000AB7B6 /* Sources */,
 				64F1A8302DBC2A40000AB7B6 /* Frameworks */,
 				64F1A8312DBC2A40000AB7B6 /* Resources */,
+				35B38FE4CD2634DE2775BDA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +214,6 @@
 				64F1A8362DBC2A40000AB7B6 /* test_kinoUITests */,
 			);
 			name = test_kinoUITests;
-			packageProductDependencies = (
-			);
 			productName = test_kinoUITests;
 			productReference = 64F1A8332DBC2A40000AB7B6 /* test_kinoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +286,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AF58015C932D9F864CA8322 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_kino/Pods-test_kino-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_kino/Pods-test_kino-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test_kino/Pods-test_kino-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C44B63AA20A6163E256E85B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test_kinoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35B38FE4CD2634DE2775BDA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_kino-test_kinoUITests/Pods-test_kino-test_kinoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_kino-test_kinoUITests/Pods-test_kino-test_kinoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test_kino-test_kinoUITests/Pods-test_kino-test_kinoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		534631791D9E443093A245D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test_kino-test_kinoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8961C3204A4C4A14242A3055 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test_kino-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		64F1A80F2DBC2A3E000AB7B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,17 +429,18 @@
 /* Begin XCBuildConfiguration section */
 		64F1A83D2DBC2A40000AB7B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F7A56706736545089B3A20 /* Pods-test_kino.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y7MSY46LM7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = test_kino/Info.plist;
+				INFOPLIST_FILE = test_kino/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,17 +458,18 @@
 		};
 		64F1A83E2DBC2A40000AB7B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43681CFECFF7F0C3C64E27F2 /* Pods-test_kino.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y7MSY46LM7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = test_kino/Info.plist;
+				INFOPLIST_FILE = test_kino/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,6 +606,7 @@
 		};
 		64F1A8422DBC2A40000AB7B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF2B7BDE5EC538DCB0EC50C /* Pods-test_kinoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +626,7 @@
 		};
 		64F1A8432DBC2A40000AB7B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCCB01C59DD07F2E81CE05D /* Pods-test_kinoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -497,6 +646,7 @@
 		};
 		64F1A8452DBC2A40000AB7B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F307D22F2E90163BC9623F2E /* Pods-test_kino-test_kinoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -514,6 +664,7 @@
 		};
 		64F1A8462DBC2A40000AB7B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A660FA505AB03EACC46F78 /* Pods-test_kino-test_kinoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
